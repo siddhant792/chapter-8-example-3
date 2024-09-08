@@ -18,4 +18,4 @@ set -u # or set -o nounset
 echo "CONTAINER_REGISTRY: $CONTAINER_REGISTRY"
 echo "VERSION: $VERSION"
 
-docker build -t $CONTAINER_REGISTRY/video-streaming:$VERSION --file ./Dockerfile-prod .
+# docker build -t $CONTAINER_REGISTRY/video-streaming:$VERSION --file ./Dockerfile-prod .
